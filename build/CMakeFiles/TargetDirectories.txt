@@ -1,0 +1,3 @@
+/home/dell/MajorProject/main/build/CMakeFiles/rebuild_cache.dir
+/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir
+/home/dell/MajorProject/main/build/CMakeFiles/edit_cache.dir

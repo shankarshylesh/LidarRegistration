@@ -1,0 +1,27 @@
+Copyright © 2018 by Adarsh Sunilkumar Aby Thomas Shankar Shylesh
+All rights reserved. This code or any portion thereof
+may not be reproduced or used in any manner whatsoever
+without the express written permission of the owners,
+except in the case of certain noncommercial uses permitted
+by copyright law.
+except for the use of brief quotations in a book review.
+
+
+
+type the following 
+cd build
+cmake ..
+make
+./statistical_removal
+
+-----------------------------------------
+
+for installing pcl in ubutnu follow the below commands
+
+sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+sudo apt-get update
+sudo apt-get install libpcl-all
+
+----------------------------------------
+
+for any changes please send me the pull request

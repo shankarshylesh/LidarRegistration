@@ -177,6 +177,33 @@ src/ClusterNode.cpp.s:
 	$(MAKE) -f CMakeFiles/lidarReg.dir/build.make CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.s
 .PHONY : src/ClusterNode.cpp.s
 
+src/CompareFunction.o: src/CompareFunction.cpp.o
+
+.PHONY : src/CompareFunction.o
+
+# target to build an object file
+src/CompareFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/lidarReg.dir/build.make CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o
+.PHONY : src/CompareFunction.cpp.o
+
+src/CompareFunction.i: src/CompareFunction.cpp.i
+
+.PHONY : src/CompareFunction.i
+
+# target to preprocess a source file
+src/CompareFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/lidarReg.dir/build.make CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.i
+.PHONY : src/CompareFunction.cpp.i
+
+src/CompareFunction.s: src/CompareFunction.cpp.s
+
+.PHONY : src/CompareFunction.s
+
+# target to generate assembly for a file
+src/CompareFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/lidarReg.dir/build.make CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.s
+.PHONY : src/CompareFunction.cpp.s
+
 src/KMeans.o: src/KMeans.cpp.o
 
 .PHONY : src/KMeans.o
@@ -300,6 +327,9 @@ help:
 	@echo "... src/ClusterNode.o"
 	@echo "... src/ClusterNode.i"
 	@echo "... src/ClusterNode.s"
+	@echo "... src/CompareFunction.o"
+	@echo "... src/CompareFunction.i"
+	@echo "... src/CompareFunction.s"
 	@echo "... src/KMeans.o"
 	@echo "... src/KMeans.i"
 	@echo "... src/KMeans.s"

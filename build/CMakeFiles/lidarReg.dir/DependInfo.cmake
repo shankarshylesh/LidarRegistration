@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dell/MajorProject/main/src/Cluster.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/Cluster.cpp.o"
   "/home/dell/MajorProject/main/src/ClusterNode.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o"
+  "/home/dell/MajorProject/main/src/CompareFunction.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o"
   "/home/dell/MajorProject/main/src/KMeans.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/KMeans.cpp.o"
   "/home/dell/MajorProject/main/src/Point.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/Point.cpp.o"
   "/home/dell/MajorProject/main/src/Simplex.cpp" "/home/dell/MajorProject/main/build/CMakeFiles/lidarReg.dir/src/Simplex.cpp.o"
@@ -45,7 +46,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/vtk-6.3"
   "/usr/include/freetype2"
-  "/usr/include/i386-linux-gnu/freetype2"
   "/usr/lib/i386-linux-gnu/openmpi/include/openmpi"
   "/usr/lib/i386-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"
   "/usr/lib/i386-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"

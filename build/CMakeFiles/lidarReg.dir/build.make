@@ -105,9 +105,33 @@ CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o.provides: CMakeFiles/lidarReg.dir/
 CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o.provides.build: CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o
 
 
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o: CMakeFiles/lidarReg.dir/flags.make
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o: ../src/CompareFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o -c /home/dell/MajorProject/main/src/CompareFunction.cpp
+
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dell/MajorProject/main/src/CompareFunction.cpp > CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.i
+
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dell/MajorProject/main/src/CompareFunction.cpp -o CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.s
+
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.requires:
+
+.PHONY : CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.requires
+
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.provides: CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lidarReg.dir/build.make CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.provides.build
+.PHONY : CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.provides
+
+CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.provides.build: CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o
+
+
 CMakeFiles/lidarReg.dir/src/KMeans.cpp.o: CMakeFiles/lidarReg.dir/flags.make
 CMakeFiles/lidarReg.dir/src/KMeans.cpp.o: ../src/KMeans.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lidarReg.dir/src/KMeans.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lidarReg.dir/src/KMeans.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidarReg.dir/src/KMeans.cpp.o -c /home/dell/MajorProject/main/src/KMeans.cpp
 
 CMakeFiles/lidarReg.dir/src/KMeans.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/lidarReg.dir/src/KMeans.cpp.o.provides.build: CMakeFiles/lidarReg.dir
 
 CMakeFiles/lidarReg.dir/src/Point.cpp.o: CMakeFiles/lidarReg.dir/flags.make
 CMakeFiles/lidarReg.dir/src/Point.cpp.o: ../src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lidarReg.dir/src/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lidarReg.dir/src/Point.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidarReg.dir/src/Point.cpp.o -c /home/dell/MajorProject/main/src/Point.cpp
 
 CMakeFiles/lidarReg.dir/src/Point.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/lidarReg.dir/src/Point.cpp.o.provides.build: CMakeFiles/lidarReg.dir/
 
 CMakeFiles/lidarReg.dir/src/Simplex.cpp.o: CMakeFiles/lidarReg.dir/flags.make
 CMakeFiles/lidarReg.dir/src/Simplex.cpp.o: ../src/Simplex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lidarReg.dir/src/Simplex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lidarReg.dir/src/Simplex.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidarReg.dir/src/Simplex.cpp.o -c /home/dell/MajorProject/main/src/Simplex.cpp
 
 CMakeFiles/lidarReg.dir/src/Simplex.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/lidarReg.dir/src/Simplex.cpp.o.provides.build: CMakeFiles/lidarReg.di
 
 CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o: CMakeFiles/lidarReg.dir/flags.make
 CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o: ../src/lidarReg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o -c /home/dell/MajorProject/main/src/lidarReg.cpp
 
 CMakeFiles/lidarReg.dir/src/lidarReg.cpp.i: cmake_force
@@ -205,6 +229,7 @@ CMakeFiles/lidarReg.dir/src/lidarReg.cpp.o.provides.build: CMakeFiles/lidarReg.d
 lidarReg_OBJECTS = \
 "CMakeFiles/lidarReg.dir/src/Cluster.cpp.o" \
 "CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o" \
+"CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o" \
 "CMakeFiles/lidarReg.dir/src/KMeans.cpp.o" \
 "CMakeFiles/lidarReg.dir/src/Point.cpp.o" \
 "CMakeFiles/lidarReg.dir/src/Simplex.cpp.o" \
@@ -215,6 +240,7 @@ lidarReg_EXTERNAL_OBJECTS =
 
 lidarReg: CMakeFiles/lidarReg.dir/src/Cluster.cpp.o
 lidarReg: CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o
+lidarReg: CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o
 lidarReg: CMakeFiles/lidarReg.dir/src/KMeans.cpp.o
 lidarReg: CMakeFiles/lidarReg.dir/src/Point.cpp.o
 lidarReg: CMakeFiles/lidarReg.dir/src/Simplex.cpp.o
@@ -364,7 +390,6 @@ lidarReg: /usr/lib/i386-linux-gnu/libvtkImagingMath-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkImagingMorphological-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkImagingStatistics-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkImagingStencil-6.3.so.6.3.0
-lidarReg: /usr/lib/i386-linux-gnu/libvtkInfovisBoostGraphAlgorithms-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkInteractionImage-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkLocalExample-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkParallelMPI4Py-6.3.so.6.3.0
@@ -427,9 +452,9 @@ lidarReg: /usr/lib/i386-linux-gnu/libvtkParallelMPI-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkRenderingLIC-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkFiltersTexture-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkGUISupportQt-6.3.so.6.3.0
-lidarReg: /usr/lib/i386-linux-gnu/libQt5Widgets.so.5.9.1
-lidarReg: /usr/lib/i386-linux-gnu/libQt5Gui.so.5.9.1
-lidarReg: /usr/lib/i386-linux-gnu/libQt5Core.so.5.9.1
+lidarReg: /usr/lib/i386-linux-gnu/libQt5Widgets.so.5.9.5
+lidarReg: /usr/lib/i386-linux-gnu/libQt5Gui.so.5.9.5
+lidarReg: /usr/lib/i386-linux-gnu/libQt5Core.so.5.9.5
 lidarReg: /usr/lib/i386-linux-gnu/libvtkFiltersAMR-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkParallelCore-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkIOLegacy-6.3.so.6.3.0
@@ -451,6 +476,7 @@ lidarReg: /usr/lib/i386-linux-gnu/libvtkIOXML-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkIOGeometry-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkIOXMLParser-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkInfovisLayout-6.3.so.6.3.0
+lidarReg: /usr/lib/i386-linux-gnu/libvtkInfovisBoostGraphAlgorithms-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkInfovisCore-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkViewsCore-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libvtkInteractionWidgets-6.3.so.6.3.0
@@ -494,7 +520,7 @@ lidarReg: /usr/lib/i386-linux-gnu/libvtksys-6.3.so.6.3.0
 lidarReg: /usr/lib/i386-linux-gnu/libproj.so
 lidarReg: /usr/lib/i386-linux-gnu/libvtkCommonCore-6.3.so.6.3.0
 lidarReg: CMakeFiles/lidarReg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lidarReg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dell/MajorProject/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lidarReg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidarReg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -504,6 +530,7 @@ CMakeFiles/lidarReg.dir/build: lidarReg
 
 CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/Cluster.cpp.o.requires
 CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/ClusterNode.cpp.o.requires
+CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/CompareFunction.cpp.o.requires
 CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/KMeans.cpp.o.requires
 CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/Point.cpp.o.requires
 CMakeFiles/lidarReg.dir/requires: CMakeFiles/lidarReg.dir/src/Simplex.cpp.o.requires

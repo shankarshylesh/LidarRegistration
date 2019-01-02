@@ -6,27 +6,27 @@ using namespace std;
 class Cluster
 {
 private:
-	int id_cluster;
-	vector<double> central_values;
-	vector<Point> points;
+int id_cluster;
+vector<double> central_values;
+vector<Point> points;
 
 public:
-	Cluster(int id_cluster, Point point);
+Cluster(int id_cluster, Point point);
 
-	void addPoint(Point point);
-
-
-	bool removePoint(int id_point);
+void addPoint(Point point);
 
 
-	double getCentralValue(int index);
-
-	void setCentralValue(int index, double value);
+bool removePoint(int id_point);
 
 
-	Point getPoint(int index);
+double getCentralValue(int index);
 
-	int getTotalPoints();
+void setCentralValue(int index, double value);
 
-	int getID();
+
+Point getPoint(int index);
+
+int getTotalPoints();
+
+int getID();
 };

@@ -21,9 +21,41 @@ Cluster.h
 ../header_files/Cluster.h
 ClusterNode.h
 ../header_files/ClusterNode.h
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+pcl/filters/statistical_outlier_removal.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/io/io.h
+-
+pcl/point_cloud.h
+-
+pcl/kdtree/kdtree_flann.h
+-
 
 ../header_files/Point.h
 bits/stdc++.h
+-
+
+/home/dell/MajorProject/main/header_files/CompareFunction.h
+bits/stdc++.h
+-
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+pcl/filters/statistical_outlier_removal.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/io/io.h
+-
+pcl/point_cloud.h
+-
+pcl/kdtree/kdtree_flann.h
 -
 
 /home/dell/MajorProject/main/header_files/Simplex.h
@@ -42,11 +74,45 @@ bits/stdc++.h
 ClusterNode.h
 /home/dell/MajorProject/main/src/ClusterNode.h
 
+/home/dell/MajorProject/main/src/CompareFunction.cpp
+bits/stdc++.h
+-
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+pcl/filters/statistical_outlier_removal.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/io/io.h
+-
+pcl/point_cloud.h
+-
+pcl/kdtree/kdtree_flann.h
+-
+
 /home/dell/MajorProject/main/src/KMeans.cpp
 bits/stdc++.h
 -
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+pcl/filters/statistical_outlier_removal.h
+-
+pcl/visualization/cloud_viewer.h
+-
+pcl/io/io.h
+-
+pcl/point_cloud.h
+-
+pcl/kdtree/kdtree_flann.h
+-
 KMeans.h
 /home/dell/MajorProject/main/src/KMeans.h
+pcl/filters/filter.h
+-
 
 /home/dell/MajorProject/main/src/Point.cpp
 bits/stdc++.h
@@ -81,6 +147,8 @@ pcl/io/io.h
 -
 ../header_files/Simplex.h
 /home/dell/MajorProject/main/header_files/Simplex.h
+../header_files/CompareFunction.h
+/home/dell/MajorProject/main/header_files/CompareFunction.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core
@@ -1143,6 +1211,10 @@ lapacke_mangling.h
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
 /usr/include/i386-linux-gnu/bits/mman-linux.h
+bits/mman-shared.h
+-
+
+/usr/include/i386-linux-gnu/bits/mman-shared.h
 
 /usr/include/i386-linux-gnu/bits/mman.h
 bits/mman-linux.h
